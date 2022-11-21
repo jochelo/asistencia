@@ -5,7 +5,9 @@
     <router-link to="/empleado-index">Empleados</router-link>
   </nav>-->
   <navbar/>
-  <router-view/>
+  <div class="container">
+    <router-view/>
+  </div>
 </template>
 <script>
 import Navbar from '@/admin/layouts/navbar';
