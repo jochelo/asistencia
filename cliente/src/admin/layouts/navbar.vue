@@ -16,6 +16,9 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/empleado-index">Empleados</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/empleado-asistencia">Marcar Asistencia</router-link>
+          </li>
         </ul>
       </div>
     </div>

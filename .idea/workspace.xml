@@ -8,9 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/admin/empleados/empleado-create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/admin/empleados/empleado-create.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente/src/admin/empleados/empleado-index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/admin/empleados/empleado-index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/admin/layouts/navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/admin/layouts/navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/services/empleado-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/services/empleado-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/src/controllers/EmpleadoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/src/controllers/EmpleadoController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servidor/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/src/models/Empleado.js" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/src/models/Empleado.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/src/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/src/routes/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/servidor/src/models" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -52,6 +58,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\facu\inf 3911 web\2022-2\ejercicios\asistencia\servidor\src\models" />
+      <recent name="D:\facu\inf 3911 web\2022-2\ejercicios\asistencia\cliente\src\admin\empleados" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,6 +82,9 @@
       <workItem from="1667250480701" duration="16000" />
       <workItem from="1667250578111" duration="4531000" />
       <workItem from="1668459303372" duration="4975000" />
+      <workItem from="1669064480348" duration="5140000" />
+      <workItem from="1669668645468" duration="5176000" />
+      <workItem from="1670283835298" duration="336000" />
     </task>
     <servers />
   </component>

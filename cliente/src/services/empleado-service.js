@@ -12,3 +12,15 @@ export const getEmpleados = async () => {
        *
        * */
 }
+
+export const storeEmpleado = async (obj) => {
+      const {data} = await httpClient.post('/store-empleado', obj);
+      console.log('service store', data);
+      return data;
+}
+
+export const storeAsistenciaEmpleado = async (obj) => {
+      const {data} = await httpClient.post('/store-asistencia-empleado', obj);
+      console.log('service asistencia', data);
+      return data;
+}
