@@ -1,8 +1,11 @@
 <template>
 <h4>estas en empleado index</h4>
-  <button @click="onCreate" class="btn btn-primary mb-3">Nuevo Empleado</button>
+  <button @click="onCreate" class="btn btn-primary mb-3">
+    <fa-icon icon="add"/>
+    Nuevo Empleado
+  </button>
   <div class="row">
-    <div class="col-md-6" v-for="empleado in empleados">
+    <div class="col-md-6 my-2" v-for="empleado in empleados">
       <div class="card">
         <div class="card-body">
           <p>Nombre: {{ empleado.nombre + ' ' + empleado.apellido }}</p>
@@ -12,8 +15,12 @@
         </div>
         <div class="card-footer text-end">
           <div class="btn-group">
-            <button class="btn btn-outline-success border-0">Editar</button>
-            <button class="btn btn-outline-danger border-0">Eliminar</button>
+            <button class="btn btn-outline-success border-0">
+              <fa-icon icon="edit"/>
+            </button>
+            <button class="btn btn-outline-danger border-0">
+              <fa-icon icon="trash"/>
+            </button>
           </div>
         </div>
       </div>
@@ -24,6 +31,10 @@
 
 <script>
 import {getEmpleados} from "@/services/empleado-service";
+import {library} from "@fortawesome/fontawesome-svg-core";
+import {faAdd, faEdit, faTrash} from "@fortawesome/free-solid-svg-icons";
+
+library.add(faEdit, faTrash, faAdd);
 
 export default {
   name: "empleado-index",

@@ -5,12 +5,18 @@ import UsuarioCreate from '@/admin/usuarios/usuario-create';
 import EmpleadoIndex from '@/admin/empleados/empleado-index';
 import EmpleadoCreate from "@/admin/empleados/empleado-create";
 import EmpleadoAsistencia from "@/admin/empleados/empleado-asistencia";
+import login from "@/components/login";
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: Home
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: login
   },
   {
     path: '/usuario-index',
