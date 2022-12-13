@@ -4,8 +4,8 @@
     <router-link to="/usuario-index">Usuarios</router-link> |
     <router-link to="/empleado-index">Empleados</router-link>
   </nav>-->
-  <navbar/>
-  <div class="container">
+  <!--<navbar/>-->
+  <div class="">
     <router-view/>
   </div>
 </template>

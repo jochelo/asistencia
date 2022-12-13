@@ -10,4 +10,6 @@ routes.post('/store-asistencia-empleado', EmpleadoController.storeAsistencia);
 
 routes.post('/store-usuario', UsuarioController.store);
 
+routes.post('/login', UsuarioController.login);
+
 module.exports = routes;

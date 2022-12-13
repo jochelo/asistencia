@@ -12,5 +12,10 @@ Usuario.create = async (obj) => {
     return await db.query(`insert into usuarios set ?`, [obj]);
 }
 
+Usuario.singin = async (obj) => {
+    obj.password = encriptar(obj.password);
+    return await db.query(`select * from usuarios where cuenta=? and password=?`, [obj.cuenta, obj.password]);
+}
+
 
 module.exports = Usuario;

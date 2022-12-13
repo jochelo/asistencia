@@ -49,7 +49,13 @@ export default {
   methods: {
     async onStore() {
       console.log(this.empleado);
-      await storeEmpleado(this.empleado);
+      try {
+        await storeEmpleado(this.empleado);
+        this.$router.push({name: 'empleadoIndex'});
+        this.$toast.success(`Empleado registrado exitosamente`);
+      } catch (e) {
+        this.$toast.error(`Error al registrar nuevo empleado`);
+      }
     },
     onCancel() {
       this.$router.push({name: 'empleadoIndex'});

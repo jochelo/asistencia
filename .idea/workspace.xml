@@ -8,10 +8,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente/src/admin/empleados/empleado-index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/admin/empleados/empleado-index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente/src/admin/usuarios/usuario-create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/admin/usuarios/usuario-create.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/admin/empleados/empleado-create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/admin/empleados/empleado-create.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/components/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/components/login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/services/usuario-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/services/usuario-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/src/controllers/UsuarioController.js" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/src/controllers/UsuarioController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/src/models/Usuario.js" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/src/models/Usuario.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servidor/src/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/src/routes/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/servidor/src/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cliente/src/admin/router" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -57,10 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\facu\inf 3911 web\2022-2\ejercicios\asistencia\cliente\src\admin\router" />
+      <recent name="D:\facu\inf 3911 web\2022-2\ejercicios\asistencia\cliente\src\assets" />
       <recent name="D:\facu\inf 3911 web\2022-2\ejercicios\asistencia\servidor\src\controllers" />
       <recent name="D:\facu\inf 3911 web\2022-2\ejercicios\asistencia\servidor\src\models" />
       <recent name="D:\facu\inf 3911 web\2022-2\ejercicios\asistencia\cliente\src\services" />
-      <recent name="D:\facu\inf 3911 web\2022-2\ejercicios\asistencia\cliente\src\admin\empleados" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,7 +89,9 @@
       <workItem from="1668459303372" duration="4975000" />
       <workItem from="1669064480348" duration="5140000" />
       <workItem from="1669668645468" duration="5176000" />
-      <workItem from="1670283835298" duration="4874000" />
+      <workItem from="1670283835298" duration="5638000" />
+      <workItem from="1670370345978" duration="4734000" />
+      <workItem from="1670889289640" duration="5342000" />
     </task>
     <servers />
   </component>
